@@ -36,8 +36,6 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        song.seekTo(song.getDuration());
-
         // Find and store pause Button
         Button pauseButton = (Button) findViewById(R.id.pause_button);
         // Set OnClickListener on pause Button
